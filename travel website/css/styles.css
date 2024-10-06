@@ -1,0 +1,54 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    font-size: 14px;
+}
+
+#contact {
+    padding-top: 20px;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+.form{
+    color:blue;
+}
+.nav-link.form {
+    color: #007bff; 
+    text-decoration: none; 
+    padding: 9px 15px; 
+    transition: color 0.3s ease; 
+}
+
+.nav-link.form:hover {
+    color: #292929; /
+   
+   
+}
+nav-link2{
+    margin-left: 100px;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamil Nadu - Travel Explorer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+
+        .hero-image h1 {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            color: white;
+            font-size: 36px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        .attractions, .travel-tips {
+            background: white;
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        .container img {
+            width: 100%;
+            max-width: 500px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Travel Explorer</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container my-4">
+        <h1 style="text-align: center;">Welcome to Tamil Nadu</h1>
+
+        <img src="https://cdn.pixabay.com/photo/2021/05/16/06/46/india-6257329_1280.jpg" class="img-fluid mx-auto d-block mt-4 rounded" alt="Tamil Nadu">
+        
+        <p class="mt-3 text-center">Tamil Nadu, renowned for its ancient temples, rich cultural heritage, and beautiful landscapes, offers a unique experience.</p>
+        
+        <div class="attractions">
+            <h3>Attractions</h3>
+            <ul>
+                <li>Chennai: Visit Marina Beach and the historic Kapaleeshwarar Temple.</li>
+                <li>Madurai: Explore the famous Meenakshi Amman Temple.</li>
+                <li>Kodaikanal: Experience the serene beauty of this hill station.</li>
+            </ul>
+        </div>
+
+        <div class="travel-tips mt-4">
+            <h3>Travel Tips</h3>
+            <p>Try the local cuisine, especially the dosa and filter coffee!</p>
+        </div>
+
+        <button class="btn btn-warning mt-3" onclick="alert('Book your temple tours in advance to avoid last-minute hassles!')">Travel Tip</button>
+        <a href="../index.html" class="btn btn-secondary mt-3">Back to Home</a>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
